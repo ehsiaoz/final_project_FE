@@ -25,6 +25,22 @@ body {
    background-color: beige;
 }
 
+/*category links in top category navigation bar*/
+.nav-justified>li>a {
+    color: #75787b;
+    margin-bottom: 0px;
+    text-align: middle;
+    padding: 10px 0px;
+}
+/*hover: category links in top category navigation bar*/
+
+.nav-justified>li>a:hover {
+    background-color: beige;
+    border-bottom: 1px solid green;
+
+}
+
+
 /*page header div containing h1 and breadcrumbs*/
 .pgheader {
   border-bottom: 1px solid lightgrey;
@@ -42,19 +58,6 @@ h1 {
   margin-top: 0px;
 }
 
-/*category links in top category navigation bar*/
-.nav-justified>li>a {
-    color: #75787b;
-    margin-bottom: 0px;
-    text-align: left;
-    padding: 10px 0px;
-}
-
-.nav-justified>li>a:hover {
-    background-color: beige;
-    border-bottom: 1px solid green;
-
-}
 
 /*category links in left nav on search page*/
 .leftcatnv>li>a {
