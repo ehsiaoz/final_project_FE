@@ -1,0 +1,116 @@
+/*global header*/
+.navbar-fixed-top {
+  background-color: green;
+}
+
+/*global header right justified links*/
+.navbar-right>li>a {
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-right>li>a:hover {
+    text-decoration: underline;
+    background-color: green;
+}
+
+body {
+  padding-top: 50px;
+}
+
+/*top category navigation bar*/
+.topnv {
+   border-bottom: 1px solid lightgrey;
+   background-color: beige;
+}
+
+/*page header div containing h1 and breadcrumbs*/
+.pgheader {
+  border-bottom: 1px solid lightgrey;
+  margin-bottom: 5px;
+}
+
+/*breadcrumb*/
+.breadcrumb {
+  background-color: white;
+  margin: 0px;
+  padding: 8px 0px;
+}
+
+h1 {
+  margin-top: 0px;
+}
+
+/*category links in top category navigation bar*/
+.nav-justified>li>a {
+    color: #75787b;
+    margin-bottom: 0px;
+    text-align: left;
+    padding: 10px 0px;
+}
+
+.nav-justified>li>a:hover {
+    background-color: beige;
+    border-bottom: 1px solid green;
+
+}
+
+/*category links in left nav on search page*/
+.leftcatnv>li>a {
+  padding: 10px 0px;
+  color: grey;
+}
+
+#map {
+  background-color: beige;
+  height: 400px;
+}
+
+
+.biz-result-card {
+  height: 275px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.biz-image {
+  width: 100%;
+  height: auto;
+}
+/*business card thumbnail*/
+.biz-thumbnails {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.biz-title {
+  color: blue;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 0;
+}
+
+.biz-desc {
+  color: #888;
+  display: block;
+  line-height: 20px;
+  margin: 12px 0;
+  max-height: 80px;
+  overflow: hidden;
+}
+
+.empty {
+  height: 100px;
+}
+
+.btn-deal {
+  background-color: #53a318;
+  color: white;
+  font-weight: 400;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+}
