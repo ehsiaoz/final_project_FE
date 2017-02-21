@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>search page</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/search.css">
+  </head>
+  <!-- global header -->
+  <header>
+    <nav class="navbar navbar-fixed-top" role="banner">
+      <!-- container -->
+      <div class="container">
+        <a class="navbar-brand" href="#" style="color: white">Biz Finder
+        </a>
+        <!-- top global search form -->
+        <form class="navbar-form navbar-left">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-default searchbtn" aria-label="search">
+            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+          </button>
+        </form>
+        <!-- bottom global search form -->
+        <!-- top right header nav links -->
+        <ul class="nav navbar-nav navbar-right">
+          <li class="login"><a href="#">Login</a></li>
+        </ul>
+      <!-- bottom right header nav links -->
+      </div>
+      <!-- container -->
+    </nav>
+  </header>
+  <!-- body -->
+  <body>
+    <!-- primary global navigation links -->
+    <nav class="nav-links topnv" role="navigation">
+      <div class="container primary-nav-row">
+        <ul class="nav nav-justified">
+          <li role="presentation"><a href="#">Hotels</a></li>
+          <li role="presentation"><a href="#">Restaurants</a></li>
+          <li role="presentation"><a href="#">Professional Services</a></li>
+          <li role="presentation"><a href="#">Travel</a></li>
+          <li role="presentation"><a href="#">Top Deals</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- div for page header elements -->
+    <div class="container pgheader">
+      <ol class="breadcrumb">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Hotels</a></li>
+        <li class="active">Chicago</li>
+      </ol>
+      <h1>Evanston Summer Camps</h1>
+    </div>
+    <!-- div for main body -->
+    <div class="container mainnbody">
+      <!-- top of row containing cols for left nav and main body -->
+      <div class="row">
+        <!-- top div for left category nav -->
+        <div class="col-md-3">
+          <h4>Categories</h4>
+          <!-- top left category navigation -->
+          <nav class="nav-links" role="navigation">
+              <ul class="nav leftcatnv">
+                <li role="presentation"><a href="#">Home</a></li>
+                <li role="presentation"><a href="#">Local</a></li>
+                <li role="presentation"><a href="#">Goods</a></li>
+                <li role="presentation"><a href="#">Getaways</a></li>
+                <li role="presentation"><a href="#">Clearance</a></li>
+                <li role="presentation"><a href="#">Coupons</a></li>
+                <li role="presentation"><a href="#">Super Sized Sale</a></li>
+              </ul>
+          </nav>
+          <!-- bottom of left category navigation -->
+          <div id="map">
+
+          </div>
+          <!-- bottom left category navigation -->
+        </div>
+        <!-- bottom div for left category nav -->
+        <!-- top column containing business result cards -->
+        <div class="biz-result-col col-md-9">
+          <!-- top of SPECIAL individual business result card -->
+          <div class="biz-result-card-lg col-md-12">
+            <div class="row">
+              <!-- top of col -->
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-12 biz-title-lg">
+                    Sail Caribbean
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 biz-image-lg">
+                    <img class="biz-thumbnails-lg" src="http://toc.h-cdn.co/assets/16/19/980x666/sail-caribbean.jpg" alt="">
+                  </div>
+                </div>
+                <div class="row">
+                  <!-- top of business description snippet -->
+                    <div class="col-md-12 biz-desc-lg">
+                      For a unique, marine-focused experience, Sail Caribbean offers students the opportunity to live aboard a 50-foot monohull or a 45-foot catamaran for either 14 or 21 days. While some participants are experienced and enthusiastic seafarers, others are complete beginners, and all levels of experience are welcome.
+                      Activities include sailing, scuba diving, paddleboarding, and environmental studies, with compulsory community service and marine biology, and boys and girls learn to become seaworthy, cooking their own meals assisted by staff that includes former Olympians and America's Cup crew mates.
+                      Activities include sailing, scuba diving, paddleboarding, and environmental studies, with compulsory community service and marine biology, and boys and girls learn to become seaworthy, cooking their own meals assisted by staff that includes former Olympians and America's Cup crew mates
+                    </div>
+                  <!-- bottom of business description snippet -->
+                </div>
+                <div class="row">
+                  <!-- top of business attributes -->
+                  <div class="col-md-12 biz-category-attributes">
+                    <label for="price">Price</label>
+                    <p class="biz-cat-attributes" id="price">$12,400</p><br>
+                    <label for="duration">Duration</label>
+                    <p class="biz-cat-attributes" id="duration">6 weeks</p><br>
+                    <label for="ages">Ages</label>
+                    <p class="biz-cat-attributes"  id="ages">7-15</p><br>
+                  </div>
+                  <!-- bottom of business attributes -->
+                </div>
+
+              </div>
+              <!-- bottom of col -->
+            </div>
+            <!-- bottom of row -->
+          </div>
+          <!-- bottom of special individual business result card -->
+          <!-- top of SPECIAL individual business result card -->
+          <div class="biz-result-card-lg col-md-12">
+            <div class="row">
+              <!-- top of col -->
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-12 biz-title-lg">
+                    Camp Wayne
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 biz-image-lg">
+                    <img class="biz-thumbnails-lg" src="http://toc.h-cdn.co/assets/16/19/camp-wayne.jpeg" alt="">
+                  </div>
+                </div>
+                <div class="row">
+                  <!-- top of business description snippet -->
+                    <div class="col-md-12 biz-desc-lg">
+                      A brother/sister camp on 450 acres in Pennsylvania's Endless Mountains, Camp Wayne was established in 1921 and is currently run by the third generation of the same family. Theirs is an instruction-focused program aiming to hone critical life skills such as creativity, collaboration, and communication. Activites include beach volleyball, martial arts, wrestling, golf, football, lacrosse, boxing, skateboarding, ping pong, drama, dance, cheerleading, gymnastics, and environmental education. They offer a four-week option at $7,300 for first-time campers.
+                    </div>
+                  <!-- bottom of business description snippet -->
+                </div>
+                <div class="row">
+                  <!-- top of business attributes -->
+                  <div class="col-md-12 biz-category-attributes">
+                    <label for="price">Price</label>
+                    <p class="biz-cat-attributes" id="price">$1,600</p><br>
+                    <label for="duration">Duration</label>
+                    <p class="biz-cat-attributes" id="duration">4 weeks</p><br>
+                    <label for="ages">Ages</label>
+                    <p class="biz-cat-attributes"  id="ages">7-12</p><br>
+                  </div>
+                  <!-- bottom of business attributes -->
+                </div>
+
+              </div>
+              <!-- bottom of col -->
+            </div>
+            <!-- bottom of row -->
+          </div>
+          <!-- bottom of special individual business result card -->
+          <!-- top of individual business result card -->
+          <div class="biz-result-card col-md-12">
+            <div class="row">
+              <div class="biz-card-image-col col-md-4">
+                <div class="biz-image vcenter">
+                    <img class="biz-thumbnails" src="http://toc.h-cdn.co/assets/16/19/980x586/camp-androscoggin-1.jpeg" alt="">
+                </div>
+              </div>
+              <!-- top of business card content section -->
+              <div class="biz-card-content-col col-md-8">
+                <!-- top of business title -->
+                <div class="biz-title">
+                  Camp Androscoggin
+                </div>
+                <!-- bottom of business title -->
+                <!-- top of business description snippet -->
+                <div class="biz-desc">
+                  Founded in 1907 by a former President of the American Camping Association, Camp Androscoggin is an all-boys camp operating on two key principles: introduction to every activity to build confidence, and eventually a personalized schedule to progress and develop desired skills. Each boy is contacted by a Big Brother before camp begins, hoping to foster a sense of camaraderie and inclusiveness that defines the "Andro spirit." Facilities include 12 tennis courts, golf, archery, and riflery ranges, soccer and lacrosse fields, two baseball diamonds, two outdoor basketball courts, ropes courses and climbing wall, a radio station, a photography and video production studio, and a Playhouse. For campers who want shorter options, Androscoggin offers a four-week program in June and July for $7,600, with the opportunity to extend full season.
+                </div>
+                <!-- bottom of business description snippet -->
+                <!-- top of empty div row -->
+                <div class="empty">
+
+                </div>
+                <!-- bottom of empty div row -->
+                <!-- top of row containing deal button -->
+                <div class="deal row">
+                  <div class="col-md-8">
+                  </div>
+                  <!-- top of col containing deal button -->
+                  <div class="col-md-4">
+                    <div class="btn-deal">
+                      View Deal
+                    </div>
+                  </div>
+                  <!-- bottom of col containing deal button -->
+                </div>
+                <!-- bottom of row containing deal button -->
+              </div>
+              <!-- bottom of business card content section -->
+            </div>
+            <!-- bottom of row containing image and content columns -->
+          </div>
+          <!-- bottom of individual business result card -->
+          <!-- top of individual business result card -->
+          <div class="biz-result-card col-md-12">
+            <div class="row">
+              <div class="biz-card-image-col col-md-4">
+                <div class="biz-image vcenter">
+                    <img class="biz-thumbnails" src="http://toc.h-cdn.co/assets/16/19/980x700/timber-lake-camp-2.jpeg" alt="">
+                </div>
+              </div>
+              <!-- top of business card content section -->
+              <div class="biz-card-content-col col-md-8">
+                <!-- top of business title -->
+                <div class="biz-title">
+                  Timber Lake Camp
+                </div>
+                <!-- bottom of business title -->
+                <!-- top of business description snippet -->
+                <div class="biz-desc">
+                  With the tagline "what camp was always meant to be," Timber Lake Camp is a co-ed facility spanning 500 acres and two lakes in the Catskills Mountains, featuring separate camps for girls and boys. In addition to the usual suspects (canoeing, kayaking, flag football, and lacrosse), there's candlemaking, woodshop, 3D design and printing, computer programming, robotics, TV & film, and digital design. The campus also includes a heated Olympic-sized swimming pool, and activities including martial arts, spinning, and yoga. Campers enjoy competitions both between each other and with other nearby camps, including basketball, roller hockey, softball, and baseball tournaments.
+                </div>
+                <!-- bottom of business description snippet -->
+              </div>
+              <!-- bottom of business card content section -->
+            </div>
+            <!-- bottom of row containing image and content columns -->
+          </div>
+          <!-- bottom of individual business result card -->
+          <!-- top of individual business result card -->
+          <div class="biz-result-card col-md-12">
+            <div class="row">
+              <div class="biz-card-image-col col-md-4">
+                <div class="biz-image vcenter">
+                    <img class="biz-thumbnails" src="" alt="">
+                </div>
+              </div>
+              <!-- top of business card content section -->
+              <div class="biz-card-content-col col-md-8">
+                <!-- top of business title -->
+                <div class="biz-title">
+                  Brown Ledge Camp
+                </div>
+                <!-- bottom of business title -->
+                <!-- top of business description snippet -->
+                <div class="biz-desc">
+                  Celebrating 90 years in 2016, the all-girls, uniform-free Brown Ledge Camp is known for its "freedom of choice" philosophy designed to foster independence—campers decide themselves what they'll do with their time, and girls also live in cabins without a counselor. Activities include horsemanship, tennis, archery, riflery, diving, wakeboarding, and aquaplaning, with facilities including a sailing fleet and a theater seating 250. Famous alumni include Gwyneth Paltrow and Stephanie Zimbalist. The camp prides itself an on all-inclusive tuition (unlike most top camps), covering costs like laundry, transport, overnight excursions, and horseback riding.
+                </div>
+                <!-- bottom of business description snippet -->
+              </div>
+              <!-- bottom of business card content section -->
+            </div>
+            <!-- bottom of row containing image and content columns -->
+          </div>
+          <!-- bottom of individual business result card -->
+        </div>
+        <!-- bottom of column containing business result cards col-md-9 -->
+      </div>
+      <!-- bottom of row containing cols for left nav and main body -->
+    </div>
+    <!-- div for main body -->
+  </body>
+</html>

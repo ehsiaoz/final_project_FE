@@ -17,6 +17,7 @@
 
 body {
   padding-top: 50px;
+
 }
 
 /*top category navigation bar*/
@@ -77,12 +78,33 @@ h1 {
   border-bottom: 1px solid lightgrey;
 }
 
+.biz-result-card-lg {
+  height: 900px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid lightgrey;
+}
+
+/*div containting img tag*/
 .biz-image {
   width: 100%;
   height: auto;
 }
-/*business card thumbnail*/
+
+/*div containting img tag*/
+.biz-image-lg {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/*business card thumbnail on img tag*/
 .biz-thumbnails {
+  width: 100%;
+  vertical-align: middle;
+}
+
+/*business card thumbnail on img tag large*/
+.biz-thumbnails-lg {
   width: 100%;
   vertical-align: middle;
 }
@@ -95,6 +117,15 @@ h1 {
   margin-top: 0;
 }
 
+.biz-title-lg {
+  color: black;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
 .biz-desc {
   color: #888;
   display: block;
@@ -104,6 +135,31 @@ h1 {
   overflow: hidden;
 }
 
+.biz-desc-lg {
+  color: #888;
+  display: block;
+  /*line-height: 20px;*/
+  margin: 12px 0;
+  max-height: 200px;
+  overflow: hidden;
+}
+
+.row-biz-card-desc-lg {
+  margin-bottom: 10px;
+}
+
+/*p tags for biz attributes in large cards*/
+.biz-cat-attributes {
+  color: #888;
+  color: grey;
+  display: inline-block;
+}
+
+label {
+  font-weight: bold;
+  color: grey;
+}
+/*empty div beside the deal button*/
 .empty {
   height: 100px;
 }
@@ -116,4 +172,44 @@ h1 {
   text-align: center;
   line-height: 40px;
   height: 40px;
+}
+
+/*Business Listing Page Elements-----------------------*/
+
+.listing-main-col {
+  border-right: 1px solid lightgrey;
+}
+
+.biz-summary-stats {
+
+}
+
+/*biz listing map*/
+.biz-map {
+  height: 200px;
+  border: 1px solid grey;
+}
+
+/*individual photos inside photoWrap div*/
+
+.biz-photo {
+  width: 25%%;
+  height: 100px;
+}
+
+
+.biz-photo>img {
+  width: 100%;
+}
+
+/*right rail contact box*/
+.biz-contact-box {
+  height: 200px;
+  width: 100%;
+}
+
+footer {
+  margin-top: 40px;
+  background-color: green;
+  height: 100px;
 }
